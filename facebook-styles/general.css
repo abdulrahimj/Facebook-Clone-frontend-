@@ -1,0 +1,29 @@
+body{
+  height: 1500px;
+}
+
+h1{
+  font-family: Segoe UI;
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  font-family: Segoe UI;
+  padding: 0;
+  margin: 0;
+}
+
+span{
+  font-family: Segoe UI;
+}
+
+button{
+  font-family: Segoe UI;
+}
+
+input{
+  font-family: Segoe UI;
+  padding: 0;
+  margin: 0;
+}

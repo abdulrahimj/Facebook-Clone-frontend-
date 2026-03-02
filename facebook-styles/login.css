@@ -1,0 +1,96 @@
+.login-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.login-text-div{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+.login-text-div h1{
+  color: rgb(33, 76, 248);
+  font-family: Tahoma;
+  font-size: 45px;
+  margin-left: -90px;
+  margin-top: -90px;
+}
+
+.login-text-div p{
+  margin-left: 230px;
+  font-size: 30px;
+  margin-top: 15px;
+  line-height: 35px;
+}
+
+.login-form-div{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.actual-login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  width: 320px;
+  height: 280px;
+  padding: 15px 15px;
+}
+
+.email, .password{
+  padding: 12px 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 199, 199);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.0.5);
+}
+
+.login-button{
+  padding: 12px;
+  margin-top: 5px;
+  background-color: rgb(33, 76, 248);
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.forgot-pass{
+  color: rgb(33, 76, 248);
+  text-align: center;
+  font-weight: 500;
+}
+
+.line{
+  border: 1px solid rgb(201, 199, 199);
+  margin-top: 15px;
+}
+
+.new-account{
+  background-color: rgb(4, 158, 4);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 12px 5px;
+  margin: 12px 90px;
+  border-radius: 5px;
+}
+
+.end-text{
+  font-size: 13px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.et{
+  font-weight: bold;
+}
